@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+    background-color: #D95829;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .block {
+    width: 450px;
+    height: 250px;
+    background-color: #D95829;
+    position: absolute;
+        left: 10%;
+        top: 20%;
+    display: flex;
+    z-index: -1;
+
+    }
+
+    .block #home {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 25%;
+        height: 60%;
+    }
+
+    .block #projects {
+        position: absolute;
+        left: 110px;
+        top: 0px;
+        width: 40%;
+        height: 40%;
+    }
+
+    .block #tr_filler {
+        position: absolute;
+        right: 0px;
+        top: -27px;
+        width: 35%;
+        height: 40%;
+        z-index: -3;
+    }
+
+    .block #bl_filler {
+        position: absolute;
+        left: 2px;
+        bottom: 50px;
+        width: 65%;
+        height: 20%;
+    }
+
+    .block #resume {
+        position: absolute;
+        left: 118px;
+        bottom: 88px;
+        width: 38%;
+        height: 30%;
+        z-index: -1;
+    }
+
+    .block #bio {
+        position: absolute;
+        right: 40px;
+        bottom: 53px;
+        width: 29%;
+        height: 57%;
+        z-index: -1;
+    }
+
+    .block #br_filler {
+        position: absolute;
+        right: -2px;
+        bottom: 53px;
+        width: 10%;
+        height: 47%;
+    }
+
+    .block #name {
+        width: 60%;
+        height: 20%;
+        position: absolute;
+        right: 0px;
+        top: -51px;
+        z-index: 1;
+
+    }
+
+}
+
+
