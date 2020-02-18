@@ -3,8 +3,6 @@
     background-color: #D95829;
 }
 
-@media only screen and (max-width: 600px) {
-
     .block {
     width: 450px;
     height: 250px;
@@ -38,7 +36,7 @@
         right: 0px;
         top: -27px;
         width: 35%;
-        height: 40%;
+        height: 30%;
         z-index: -3;
     }
 
@@ -54,16 +52,16 @@
         position: absolute;
         left: 118px;
         bottom: 88px;
-        width: 38%;
-        height: 30%;
+        width: 37%;
+        height: 27%;
         z-index: -1;
     }
 
     .block #bio {
         position: absolute;
-        right: 40px;
+        right: 43px;
         bottom: 53px;
-        width: 29%;
+        width: 27%;
         height: 57%;
         z-index: -1;
     }
@@ -85,7 +83,19 @@
         z-index: 1;
 
     }
+    
+@media screen and (min-width: 900px) {
 
+    .block {
+    width: 700px;
+    height: 700px;
+    background-color: lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+        left: 10%;
+        top: 10%;
+    }
 }
-
-
