@@ -42,18 +42,18 @@
 
     .block #bl_filler {
         position: absolute;
-        left: 2px;
+        left: 0px;
         bottom: 50px;
         width: 65%;
-        height: 20%;
+        height: 17%;
     }
 
     .block #resume {
         position: absolute;
         left: 118px;
-        bottom: 88px;
+        bottom: 94px;
         width: 37%;
-        height: 27%;
+        height: 24%;
         z-index: -1;
     }
 
@@ -70,7 +70,7 @@
         position: absolute;
         right: -2px;
         bottom: 53px;
-        width: 10%;
+        width: 9%;
         height: 47%;
     }
 
